@@ -1,4 +1,4 @@
-# ICS3UN-Final-Console-Game
+# ICS3UN-Console-Game
 
 Final project for ICS3UN. Grid-like game that can be played in the console.
 
