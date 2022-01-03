@@ -8,4 +8,4 @@ Final project for ICS3UN. Grid-like game that can be played in the console.
 3. Run  ```main.py```.
 
 ## Requirements
-This project only works on a Microsoft OS
+This project only works on a Microsoft OS.
