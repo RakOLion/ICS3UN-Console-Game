@@ -1,6 +1,6 @@
 # ICS3UN-Console-Game
 
-Final project for ICS3UN. Grid-like game that can be played in the console.
+Final project for ICS3UN. Grid-based game that can be played in the console.
 
 ## Installation
 1. Download the files for the project.
