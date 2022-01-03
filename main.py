@@ -89,15 +89,15 @@ while True:
     for y in range(0, currentBoard.shape[1]):
       if (not ((x == currX or x == currX+1 or x==currX-1) and (y == currY or y == currY+1 or y==currY-1)) and not is_obstacle(x,y,obstacleLocations)):
         if(random.random()<difficulty_spawnrates[difficulty]): 
-          currentBoard[y][x] = 'X'
+          currentBoard[y][x] = ' '
           obstacleLocations.append([x,y])
 
   if(is_obstacle(currX, currY, obstacleLocations)): 
     break
 
-  currentBoard[currY, currX] = 'O'
+  currentBoard[currY, currX] = '■'
   render(currentBoard)
-  currentBoard[currY, currX] = 'X' 
+  currentBoard[currY, currX] = ' ' 
 
   time.sleep(0.25)
 
